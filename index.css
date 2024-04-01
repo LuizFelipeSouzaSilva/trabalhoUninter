@@ -1,0 +1,61 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(15, 13, 43);
+    color: white;
+    margin: 0;
+    list-style: none;
+}
+
+body a {
+    color: rgb(36, 187, 41);
+}
+
+.menu {
+    background-color: rgb(36, 187, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px ;
+    width: 375px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(23, 94, 26);
+}
+
+nav {
+    display: flex;
+    font-size: 30px;
+}
+
+#sobremim{
+    margin-top: -40px;
+}
+
+table {
+    width: 70%;
+    border: 0;
+    align-items: center;
+}
+
+#sobremim, #formacao,
+#portifolio {
+   text-align: center;
+}
+
+#contato {
+    margin-left: 404px;
+}
+#contato h1 {
+    margin-left: 330px;
+}
